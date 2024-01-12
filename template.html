@@ -10,10 +10,27 @@
     <ul>
       <!-- posts -->
     </ul>
-    <form action="/send" method="post">
-      <input id="message-input" type="text" name="message" />
-      <button type="submit">送信</button>
-    </form>
-    <script src="/script.js"></script>
+    <section class="content">
+      <ul id="chat-area">
+        <li>
+          <div class="balloon balloon-r">
+            <p class="say say-r">こんにちは</p>
+          </div>
+        </li>
+        <li>
+          <div class="balloon">
+            <img class="img-circle" src="operator.png" alt="image" />
+            <p class="say">なんでも聞いてください。</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <form action="/send" method="post">
+        <input id="message-input" type="text" name="message" />
+        <button type="submit">送信</button>
+      </form>
+      <script src="/script.js"></script>
+    </footer>
   </body>
 </html>
