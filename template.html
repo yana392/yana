@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <title>チャット</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/static/style.css" />
   </head>
   <body>
-    <header>
+    <header class = "header">
       <h1 class="app-title">チャット</h1>
     </header>
     <ul>
@@ -29,8 +29,8 @@
     </section>
     <footer>
       <form action="/send" method="post">
-        <input id="message-input" type="text" name="message" />
-        <button type="submit">送信</button>
+        <input id="message-input" type="text" name="message" placeholder="メッセージを送信"/>
+        <button type="submit" id = "button">送信</button>
       </form>
       <script src="/script.js"></script>
     </footer>

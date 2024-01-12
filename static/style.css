@@ -80,7 +80,7 @@
   background-color: #ffffff;
 }
 
-.message-input {
+#message-input {
   width: 70%;
 
   margin-right: 10px;
@@ -91,7 +91,7 @@
   background-color: #f6f6f6;
 }
 
-.submit {
+#button {
   padding: 6px;
   border: none;
   border-radius: 5px;
